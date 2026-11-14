@@ -1,36 +1,50 @@
+/* Universal Selector */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Main Content */
 main {
   max-width: 840px;
 }
 
+/* Aside */
 aside {
   width: 20rem;
   text-align: center;
   position: relative;
 }
 
+/* Aside Image */
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/* Ghana Heading */
 aside h2 {
   position: absolute;
   top: 47px;
   left: 150px;
 }
 
+/* Profile Image */
 main img {
   width: 150px;
-  height: 150px;
+  height: auto;
   float: right;
 }
 
+/* Paragraph */
 p {
   padding: 0;
 }
 
+/* Footer */
 footer {
-  margin-top: 15px;
+  margin-top: 150px;
   border-top: 1px solid #000;
   text-align: center;
 }
